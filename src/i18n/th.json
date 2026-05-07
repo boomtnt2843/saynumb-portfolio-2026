@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "projects": "โปรเจกต์",
+    "events": "กิจกรรม",
+    "fun": "ของสนุก",
+    "goals": "เป้าหมาย"
+  },
+  "hero": {
+    "label": "Artist Developer — ODDS",
+    "intro": "Developer ที่ ODDS โค้ดบ้าง วาดรูปบ้าง — บางทีก็ทำทั้งคู่พร้อมกัน",
+    "chip": "ปัจจุบันอยู่ที่ KTC (YEN ¥)"
+  },
+  "projects": {
+    "sectionLabel": "ผลงาน",
+    "sectionTitle": "โปรเจกต์",
+    "viewProject": "ดูโปรเจกต์",
+    "items": [
+      {
+        "title": "เว็บแสดงผลเลือกตั้งนายก 2566",
+        "period": "พ.ค. 2566",
+        "description": "ร่วมทำกับ ODDS × Dailynews สำหรับการเลือกตั้งนายกรัฐมนตรีปี 2566 โปรเจกต์ระยะสั้น ทำตั้งแต่เริ่มจนเสร็จภายในประมาณหนึ่งเดือน",
+        "bullets": [
+          "ร่วมเก็บข้อมูลโปรเจกต์ ทั้งเรื่อง design และ stack ในช่วงแรก",
+          "ช่วยทำหน้าเว็บ React จัด layout, component และหน้า IFrame",
+          "ซัพพอร์ต issue บนหน้าเว็บในวันเปิดตัว"
+        ]
+      },
+      {
+        "title": "SAK SIAM Site",
+        "period": "มี.ค. 2566 – ธ.ค. 2567",
+        "description": "หนึ่งในจุดเติบโตที่ใหญ่ที่สุดของผม ทำ full-stack กับทีม Night Owl ทั้งฝั่ง frontend, backend และแตะ DevOps นิดหน่อย",
+        "bullets": [
+          "Flutter & React — แอปมือถือและเว็บสำหรับพนักงานและลูกค้า",
+          "Keycloak — SSO และระบบ login / การจ่ายเงินภายใน",
+          "Node.js — backend ด้วย NestJS, Express และ Fastify",
+          "ArgoCD — monitoring และ deployment service ต่างๆ",
+          "ทำงานแบบ Large-Scale Scrum"
+        ]
+      },
+      {
+        "title": "TA วิชา Web Technology มหาวิทยาลัยกรุงเทพ",
+        "period": "ส.ค. 2567 – พ.ย. 2567",
+        "description": "ไปเป็นผู้ช่วยสอนวิชา Web Technology ที่มหาวิทยาลัยกรุงเทพ ร่วมกับเพื่อนๆ พี่ๆ ที่ ODDS สอนตั้งแต่พื้นฐานไปถึง framework",
+        "bullets": [
+          "Git version control",
+          "CSS & HTML",
+          "React",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "title": "KTC — Line Connect",
+        "period": "ม.ค. 2568 – ปัจจุบัน",
+        "description": "โปรเจกต์ปัจจุบันที่ KTC กับทีม YEN (¥) โฟกัสที่ Line Message API webhook service และ infrastructure ของ data pipeline",
+        "bullets": [
+          "Golang / Gin — REST APIs และ unit test ด้วย Ginkgo",
+          "Line Message API — webhook integration และ message ประเภทต่างๆ",
+          "Mage AI — data pipeline สำหรับสร้าง report (Python)",
+          "K6 load testing — tune performance, config Kubernetes resource"
+        ]
+      }
+    ]
+  },
+  "events": {
+    "sectionLabel": "ออกไปเจอโลก",
+    "sectionTitle": "ค่าย & การประชุม",
+    "items": [
+      {
+        "title": "Young Webmaster Camp 19",
+        "location": "ประเทศไทย",
+        "period": "ก.ค. 2566",
+        "description": "ประสบการณ์ค่ายเทคครั้งแรก ผมเคยขายของอยู่ครับ ลองอ่านเรื่องสั้นๆ ได้ในโพสต์ YWC 20",
+        "imageCaption": "ผมเองครับตอนหัวเหลือง"
+      },
+      {
+        "title": "YOW 2024",
+        "location": "เมลเบิร์น, ออสเตรเลีย",
+        "period": "ธ.ค. 2567",
+        "description": "ไปต่างประเทศครั้งแรก — เปิดโลกมากทั้งเรื่องความรู้และวัฒนธรรม"
+      },
+      {
+        "title": "Creative Talks 2025",
+        "location": "กรุงเทพฯ, ไทย",
+        "period": "2568",
+        "description": "ไปฟัง session เรื่อง content creation และการเงิน session highlight ครอบคลุม topic ที่กำลังมาแรงในปี 2025 แนะนำมากครับ ปี 2026 อยากชวนทุกคนไปลองดู",
+        "imageCaption": "เจอลุงตันด้วย"
+      }
+    ]
+  },
+  "fun": {
+    "sectionLabel": "2025 Collection",
+    "sectionTitle": "mini-Projects & ของสนุก",
+    "viewLive": "ดูไลฟ์",
+    "items": [
+      {
+        "title": "Procreate Class",
+        "description": "เปิดคลาสครั้งแรก! Procreate Basic ร่วมกับเพื่อน สอนวาดภาพด้วย Procreate บน iPad ให้กับชาว ODDS ครั้งที่ 2 กำลังจะมาเร็วๆ นี้"
+      },
+      {
+        "title": "Shader Art (GLSL)",
+        "description": "ช่วงนี้อินงาน generative art ผ่าน GLSL shader เลยลองทำ canvas playground ขึ้นมาเล่นๆ",
+        "warning": "คำเตือน: มีแสงและการเคลื่อนไหวเยอะ โปรดระวัง"
+      },
+      {
+        "title": "CSS Battle",
+        "description": "ผมชอบสร้างงานศิลปะครับ แต่สื่อจะเป็นอะไรก็ได้ — ทำไมไม่ลอง CSS ล่ะ? แข่ง CSS Battle สร้างภาพด้วย CSS ล้วนๆ"
+      }
+    ]
+  },
+  "goals": {
+    "sectionLabel": "มองไปข้างหน้า",
+    "sectionTitle": "เป้าหมาย 2568 – 2569",
+    "items": [
+      "TOEIC — 650 คะแนนขึ้นไป",
+      "Web profile ของผมเองและวง เด็กชายสายน้ำ",
+      "เรียนรู้ GLSL / WebGL shader ให้ลึกพอที่จะสอนได้",
+      "อ่านหนังสือเกี่ยวกับการเงิน 4 เล่ม"
+    ]
+  },
+  "footer": {
+    "role": "Artist Developer"
+  }
+}

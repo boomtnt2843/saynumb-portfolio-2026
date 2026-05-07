@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "events": "Events",
+    "fun": "Fun",
+    "goals": "Goals"
+  },
+  "hero": {
+    "label": "Artist Developer — ODDS",
+    "intro": "Developer at ODDS. I code things and draw things — sometimes both at once.",
+    "chip": "Currently @ KTC (YEN ¥)"
+  },
+  "projects": {
+    "sectionLabel": "Work",
+    "sectionTitle": "Projects",
+    "viewProject": "View project",
+    "items": [
+      {
+        "title": "Election Results Web 2023",
+        "period": "May 2023",
+        "description": "Built in collaboration with ODDS × Dailynews for the 2023 Thai PM election. A fast-turnaround project — built from scratch to production in roughly one month.",
+        "bullets": [
+          "Contributed to design & stack decisions in early planning",
+          "Implemented React layouts, components, and an IFrame page",
+          "Supported live issues on launch day"
+        ]
+      },
+      {
+        "title": "SAK SIAM Site",
+        "period": "Mar 2023 – Dec 2024",
+        "description": "One of my biggest growth points — working full-stack with team \"Night Owl\" across frontend, backend, and a touch of DevOps for Sak Siam.",
+        "bullets": [
+          "Flutter & React — mobile and web apps for staff and customers",
+          "Keycloak — SSO and internal employee login/payment systems",
+          "Node.js — backend services using NestJS, Express, and Fastify",
+          "ArgoCD — monitoring and deploying services",
+          "Large-Scale Scrum collaboration"
+        ]
+      },
+      {
+        "title": "TA — Web Technology, Bangkok University",
+        "period": "Aug 2024 – Nov 2024",
+        "description": "Teaching assistant for the Web Technology course at Bangkok University alongside ODDS peers. Covered fundamentals to frameworks.",
+        "bullets": [
+          "Git version control",
+          "CSS & HTML",
+          "React",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "title": "KTC — Line Connect",
+        "period": "Jan 2025 – Present",
+        "description": "Current project at KTC with team YEN (¥). Focused on the Line Message API webhook service and data pipeline infrastructure.",
+        "bullets": [
+          "Golang / Gin — REST APIs and unit tests with Ginkgo",
+          "Line Message API — webhook integration & custom message types",
+          "Mage AI — data pipeline for report generation (Python)",
+          "K6 load testing — performance tuning, Kubernetes resource config"
+        ]
+      }
+    ]
+  },
+  "events": {
+    "sectionLabel": "Out in the world",
+    "sectionTitle": "Camps & Conferences",
+    "items": [
+      {
+        "title": "Young Webmaster Camp 19",
+        "location": "Thailand",
+        "period": "Jul 2023",
+        "description": "First tech camp experience. I used to sell things — you can read the short story in the YWC 20 post.",
+        "imageCaption": "Me with the yellow hair"
+      },
+      {
+        "title": "YOW 2024",
+        "location": "Melbourne, Australia",
+        "period": "Dec 2024",
+        "description": "My first time abroad — an eye-opening experience, both technically and culturally."
+      },
+      {
+        "title": "Creative Talks 2025",
+        "location": "Bangkok, Thailand",
+        "period": "2025",
+        "description": "Attended sessions on content creation and finance. The highlight sessions covered trending topics for 2025. Highly recommend for 2026.",
+        "imageCaption": "Met Uncle Tan too"
+      }
+    ]
+  },
+  "fun": {
+    "sectionLabel": "2025 Collection",
+    "sectionTitle": "mini-Projects & Something Fun",
+    "viewLive": "View live",
+    "items": [
+      {
+        "title": "Procreate Class",
+        "description": "Opened my first ever class — Procreate Basic — co-taught with a friend. Taught digital painting on iPad to fellow ODDS members. Round 2 coming soon."
+      },
+      {
+        "title": "Shader Art (GLSL)",
+        "description": "Got into generative art via GLSL shaders. Built and deployed a canvas playground to explore the medium.",
+        "warning": "Warning: contains a lot of light and movement — please take care."
+      },
+      {
+        "title": "CSS Battle",
+        "description": "I enjoy making art. The medium doesn't matter much — why not CSS? Competed in CSS Battle, recreating visual targets using only CSS."
+      }
+    ]
+  },
+  "goals": {
+    "sectionLabel": "Looking ahead",
+    "sectionTitle": "Goals 2025 – 2026",
+    "items": [
+      "TOEIC — 650 points or higher",
+      "Web profile for myself and my band 'เด็กชายสายน้ำ'",
+      "Learn GLSL / WebGL shaders deeply enough to teach a class",
+      "Read 4 books about personal finance"
+    ]
+  },
+  "footer": {
+    "role": "Artist Developer"
+  }
+}

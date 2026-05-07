@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&family=Manrope:wght@400;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #f9f9ff;
+  --color-surface-low: #f0f3ff;
+  --color-surface: #e8eeff;
+  --color-surface-dim: #cadafd;
+  --color-primary: #032548;
+  --color-primary-container: #1f3b5f;
+  --color-secondary: #006782;
+  --color-secondary-container: #8cdcfe;
+  --color-on-surface: #0a1c35;
+  --color-on-surface-variant: #43474e;
+  --color-outline: #74777f;
+  --color-outline-variant: #c4c6cf;
+
+  --font-display: 'Epilogue', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --container-max: 1440px;
+  --margin-edge: 64px;
+  --section-gap: 128px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--margin-edge);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --margin-edge: 24px;
+    --section-gap: 72px;
+  }
+}
