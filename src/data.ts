@@ -2,11 +2,35 @@ export const profile = {
   name: 'Boom Phattarapong',
   handle: 'saynumB',
   role: 'Artist Developer',
-  company: 'ODDS',
+  company: 'Odd-e (Thailand) Co., Ltd',
+  companyShort: 'Odds Team',
   currentSite: 'KTC (YEN ¥)',
-  intro: 'Developer at ODDS. I code things and draw things — sometimes both at once.',
+  intro: 'Developer at Odds Team. I code things and draw things — sometimes both at once.',
   avatar: '/assets/profile.jpg',
 };
+
+export const contacts = [
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/phattarapong-boom/',
+    icon: 'linkedin',
+  },
+  {
+    label: 'Gmail',
+    href: 'mailto:boom210943@gmail.com',
+    icon: 'gmail',
+  },
+  {
+    label: 'GitHub',
+    href: 'https://github.com/boomtnt2843',
+    icon: 'github',
+  },
+  {
+    label: 'Instagram',
+    href: 'https://www.instagram.com/saynumb_dot',
+    icon: 'instagram',
+  },
+];
 
 export interface Project {
   title: string;
