@@ -1,15 +1,4 @@
 {
-  "nav": {
-    "projects": "โปรเจกต์",
-    "events": "กิจกรรม",
-    "fun": "ของสนุก",
-    "goals": "เป้าหมาย"
-  },
-  "hero": {
-    "label": "Artist Developer — ODDS",
-    "intro": "Developer ที่ ODDS โค้ดบ้าง วาดรูปบ้าง — บางทีก็ทำทั้งคู่พร้อมกัน",
-    "chip": "ปัจจุบันอยู่ที่ KTC (YEN ¥)"
-  },
   "projects": {
     "sectionLabel": "ผลงาน",
     "sectionTitle": "โปรเจกต์",

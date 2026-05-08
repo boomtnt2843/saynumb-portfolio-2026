@@ -1,15 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Navbar.module.css';
 
-const NAV_KEYS = [
-  { href: '#projects', key: 'nav.projects' },
-  { href: '#events', key: 'nav.events' },
-  { href: '#fun', key: 'nav.fun' },
-  { href: '#goals', key: 'nav.goals' },
+const NAV_LINKS = [
+  { href: '#projects', label: 'Projects' },
+  { href: '#events', label: 'Events' },
+  { href: '#fun', label: 'Fun' },
+  { href: '#goals', label: 'Goals' },
 ];
 
 export default function Navbar() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const isEN = i18n.language === 'en';
 
   const toggle = () => i18n.changeLanguage(isEN ? 'th' : 'en');
@@ -23,9 +23,9 @@ export default function Navbar() {
         </a>
         <div className={styles.right}>
           <ul className={styles.links}>
-            {NAV_KEYS.map((link) => (
+            {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className={styles.link}>{t(link.key)}</a>
+                <a href={link.href} className={styles.link}>{link.label}</a>
               </li>
             ))}
           </ul>

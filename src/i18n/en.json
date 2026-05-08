@@ -1,15 +1,4 @@
 {
-  "nav": {
-    "projects": "Projects",
-    "events": "Events",
-    "fun": "Fun",
-    "goals": "Goals"
-  },
-  "hero": {
-    "label": "Artist Developer — ODDS",
-    "intro": "Developer at ODDS. I code things and draw things — sometimes both at once.",
-    "chip": "Currently @ KTC (YEN ¥)"
-  },
   "projects": {
     "sectionLabel": "Work",
     "sectionTitle": "Projects",
