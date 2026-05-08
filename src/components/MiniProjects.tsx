@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { miniProjects } from '../data';
+import LazyImage from './LazyImage';
 import styles from './MiniProjects.module.css';
 
 export default function MiniProjects() {
@@ -22,11 +23,10 @@ export default function MiniProjects() {
               <article key={item.title} className={styles.card}>
                 {meta?.image && (
                   <div className={styles.imageWrap}>
-                    <img
+                    <LazyImage
                       src={meta.image}
                       alt={meta.imageCaption ?? item.title}
                       className={styles.image}
-                      loading="lazy"
                     />
                   </div>
                 )}

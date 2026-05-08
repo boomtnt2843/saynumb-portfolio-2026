@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { projects } from '../data';
+import LazyImage from './LazyImage';
 import styles from './Projects.module.css';
 
 export default function Projects() {
@@ -23,11 +24,10 @@ export default function Projects() {
               <article key={item.title} className={styles.card}>
                 {meta?.image && (
                   <div className={styles.imageWrap}>
-                    <img
+                    <LazyImage
                       src={meta.image}
                       alt={meta.imageCaption ?? item.title}
                       className={styles.image}
-                      loading="lazy"
                     />
                     {meta.imageCaption && (
                       <p className={styles.imageCaption}>{meta.imageCaption}</p>

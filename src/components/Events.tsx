@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { events } from '../data';
+import LazyImage from './LazyImage';
 import styles from './Events.module.css';
 
 export default function Events() {
@@ -33,11 +34,10 @@ export default function Events() {
                 </div>
                 {meta?.image && (
                   <div className={styles.imageWrap}>
-                    <img
+                    <LazyImage
                       src={meta.image}
                       alt={item.imageCaption ?? item.title}
                       className={styles.image}
-                      loading="lazy"
                     />
                   </div>
                 )}
