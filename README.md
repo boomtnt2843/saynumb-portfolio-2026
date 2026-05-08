@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+# saynumB — Portfolio 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for **Boom Phattarapong (saynumB)**, Artist Developer at Odd-e (Thailand) Co., Ltd.
 
-Currently, two official plugins are available:
+Built with **React + TypeScript + Vite**. Supports Thai / English language switching.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vite.dev/)
+- [react-i18next](https://react.i18next.com/) — TH / EN i18n
+- CSS Modules
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm v9 or higher
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/boomtnt2843/saynumb-portfolio-2026.git
+
+# Navigate into the project
+cd saynumb-portfolio-2026
+
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Run in development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+The site will be available at **http://localhost:5173**
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Output is in the `dist/` folder.
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── assets/
+│   └── icons.tsx          # SVG icon components
+├── components/            # UI components (Navbar, Hero, Projects, …)
+├── i18n/
+│   ├── config.ts          # i18next setup
+│   ├── en.json            # English translations
+│   └── th.json            # Thai translations
+├── data.ts                # Portfolio content (projects, events, contacts)
+├── App.tsx
+└── main.tsx
+public/
+└── assets/                # Images used in the portfolio
+```
+
+---
+
+## Contact
+
+| | |
+|---|---|
+| LinkedIn | [phattarapong-boom](https://www.linkedin.com/in/phattarapong-boom/) |
+| GitHub | [boomtnt2843](https://github.com/boomtnt2843) |
+| Instagram | [saynumb_dot](https://www.instagram.com/saynumb_dot) |
+| Email | boom210943@gmail.com |
