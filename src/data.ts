@@ -86,14 +86,16 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: 'KTC — Line Connect',
+    title: 'KTC — Line Connect & KTC Mobile',
     period: 'Jan 2025 – Present',
     description:
-      'Current project at KTC with team YEN (¥). Focused on the Line Message API webhook service and data pipeline infrastructure.',
+      'Current project at KTC with team YEN (¥). Working on the Line Message API webhook service, data pipeline infrastructure, and mobile application development for both iOS and Android.',
     bullets: [
       'Golang / Gin — REST APIs and unit tests with Ginkgo',
       'Line Message API — webhook integration & custom message types',
       'Mage AI — data pipeline for report generation (Python)',
+      'Android (Kotlin) — KTC Mobile Android application development',
+      'iOS (Swift) — KTC Mobile iOS application development',
       'K6 load testing — performance tuning, Kubernetes resource config',
     ],
     image: '/assets/project-ktc.png',

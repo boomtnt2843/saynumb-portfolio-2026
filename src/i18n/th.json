@@ -38,13 +38,15 @@
         ]
       },
       {
-        "title": "KTC — Line Connect",
+        "title": "KTC — Line Connect & KTC Mobile",
         "period": "ม.ค. 2568 – ปัจจุบัน",
-        "description": "โปรเจกต์ปัจจุบันที่ KTC กับทีม YEN (¥) โฟกัสที่ Line Message API webhook service และ infrastructure ของ data pipeline",
+        "description": "โปรเจกต์ปัจจุบันที่ KTC กับทีม YEN (¥) ทำทั้ง Line Message API webhook service, data pipeline infrastructure และพัฒนา mobile application ทั้ง iOS และ Android",
         "bullets": [
           "Golang / Gin — REST APIs และ unit test ด้วย Ginkgo",
           "Line Message API — webhook integration และ message ประเภทต่างๆ",
           "Mage AI — data pipeline สำหรับสร้าง report (Python)",
+          "Android (Kotlin) — พัฒนา KTC Mobile บน Android",
+          "iOS (Swift) — พัฒนา KTC Mobile บน iOS",
           "K6 load testing — tune performance, config Kubernetes resource"
         ]
       }
